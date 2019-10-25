@@ -1,5 +1,5 @@
 <template>
-  <el-carousel indicator-position="outside" height="60vh" style="text-align: center">
+  <el-carousel indicator-position="outside" height="70vh" style="text-align: center">
     <el-carousel-item v-for="item in imgs" :key="item">
       <el-image
         style="width: inherit;height: inherit"

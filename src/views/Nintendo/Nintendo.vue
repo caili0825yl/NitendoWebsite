@@ -10,7 +10,7 @@
       <nav-menu/>
     </div>
     <el-container>
-      <el-header height="70vh">
+      <el-header height="75vh">
         <Header/>
       </el-header>
       <el-main>
