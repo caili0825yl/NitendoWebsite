@@ -1,5 +1,5 @@
 <template>
-  <el-carousel  height="70vh" >
+  <el-carousel  height="65vh" >
     <el-carousel-item v-for="item in imgs" :key="item">
       <el-image
         style="width: inherit;height: inherit"
