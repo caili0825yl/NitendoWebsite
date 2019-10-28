@@ -56,10 +56,12 @@
     color: #e60012 ;
   }
   >>>.el-menu--horizontal > .el-submenu:hover .el-submenu__title{
-    color: #e60012 ;
+    color: #909399 ;
   }
   >>>.el-menu--horizontal > .el-submenu .el-submenu__title{
     height: 50px;
   }
-
+  >>>.el-menu--horizontal > .el-submenu:focus .el-submenu__title, .el-menu--horizontal > .el-submenu:hover .el-submenu__title{
+    color: #909399;
+  }
 </style>

@@ -1,30 +1,25 @@
 <template>
   <div class="footer">
-    <logo/>
-    <div style="background-color: #f2f2f2">
-    <contact/>
-    <el-divider/>
-      <other/>
-    </div>
+    <foot-nav/>
+    <other/>
   </div>
 </template>
 
 <script>
-  import logo from "@/components/nintendo/footer/logo";
-  import contact from "@/components/nintendo/footer/contact";
-  import other from "@/components/nintendo/footer/other";
+  import footNav from "@/components/microsoft/footer/footNav";
+  import other from "@/components/microsoft/footer/other";
   export default {
     name: "Footer",
-    components:{
-      logo,
-      contact,
+    components: {
+      footNav,
       other
     }
   }
 </script>
 
 <style scoped>
-  .footer{
+  .footer {
     margin-top: 2%;
+    background-color: #f2f2f2
   }
 </style>
