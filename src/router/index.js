@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Nintendo from "@/views/Nintendo/Nintendo";
+import Nintendo from "@/views/Nintendo/Home/Nintendo";
 
 Vue.use(VueRouter)
 
@@ -17,12 +17,20 @@ const routes = [{
   {
     name: 'Nintendo',
     path: '/nintendo',
-    component: () => import('../views/Nintendo/Nintendo')
+    component: () => import('../views/Nintendo/Home/Nintendo')
+  },
+  {
+    path: '/nintendo/shop',
+    component: () => import('../views/Nintendo/Shop/Shop')
   },
   {
     name: 'Tencent',
     path: '/tencent',
-    component: () => import('../views/Tencent/Tencent')
+    component: () => import('../views/Tencent/Home/Tencent'),
+  },
+  {
+    path: '/tencent/company',
+    component: () => import('../views/Tencent/Introduce/Company'),
   },
   {
     name: 'Microsoft',

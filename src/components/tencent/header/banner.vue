@@ -5,7 +5,9 @@
         class="img"
         :src="item.image"
       ></el-image>
+      <keep-alive>
       <video :src="item.video" loop autoplay preload muted  class="video"></video>
+      </keep-alive>
     </el-carousel-item>
   </el-carousel>
 </template>

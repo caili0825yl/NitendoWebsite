@@ -24,9 +24,9 @@
 </template>
 
 <script>
-  import Header from "@/views/Nintendo/Child/Header";
-  import Footer from "@/views/Nintendo/Child/Footer";
-  import Main from "@/views/Nintendo/Child/Main";
+  import Header from "@/views/Nintendo/Home/Child/Header";
+  import Footer from "@/views/Nintendo/Home/Child/Footer";
+  import Main from "@/views/Nintendo/Home/Child/Main";
   import navMenu from "@/components/nintendo/header/navMenu";
 
   export default {
